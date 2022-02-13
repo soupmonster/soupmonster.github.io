@@ -1,0 +1,69 @@
+* {
+	font-family: Futura, "Gill Sans", Roboto, "Lucida Sans", sans-serif;
+	color: midnightblue;
+}
+
+/* unvisited link */
+a:link{
+	color: mediumorchid;
+}
+
+/* visited link */
+
+a:visited{
+	color: indianred;
+}
+
+/* mouse over link */
+a:hover {
+	color: fuchsia;
+}
+
+/* selected link */
+a:active {
+	color: mediumorchid;
+}
+
+h1{
+	
+}
+
+html {
+	font-size: 16px;
+}
+
+.header{
+	grid-area: header;
+	font-family: Cinzel, Georgia, Serif;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.content{
+	grid-area: content;
+}
+
+.footer{
+	grid-area: footer;
+}
+
+#banner {
+	background-color: DarkSlateBlue;
+	color: #fae49d;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	grid-area: banner;
+}
+
+body {
+	background-color: #fae49d;
+	display: grid;
+	grid-template-areas:
+		"header"
+		"banner"
+		"content"
+		"footer";
+}

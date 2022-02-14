@@ -56,7 +56,7 @@ img {
 	grid-area: footer;
 }
 
-#banner {
+.banner {
 	background-color: DarkSlateBlue;
 	color: #fae49d;
 	padding-left:20px;

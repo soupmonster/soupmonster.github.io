@@ -54,3 +54,11 @@
 .dating-sim-dialogue a{
 	text-decoration: none;
 }
+
+.tear {
+	position: absolute;
+	bottom: 15%;
+	right: 29.5%;
+	width: 5%;
+	height: 15%
+}

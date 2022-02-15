@@ -38,17 +38,25 @@ html {
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-weight: normal;
+	text-decoration: underline;
+}
+
+img {
+    max-width: 80%;
+    max-height: 100%;
 }
 
 .content{
+	display: grid;
 	grid-area: content;
+	justify-items: left;
 }
 
 .footer{
 	grid-area: footer;
 }
 
-#banner {
+.banner {
 	background-color: DarkSlateBlue;
 	color: #fae49d;
 	padding-left:20px;

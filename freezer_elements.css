@@ -1,0 +1,63 @@
+.freezer-container{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	float: center;
+	position: relative;
+}
+
+.pumpkin {
+	position: absolute;
+	bottom: 31.8%;
+	right: 51.6%;
+	width: calc(0.81 * 274/2000 * 100%);
+	height: calc(0.81 * 376/1343 * 100%);
+}
+
+.soup {
+	position: absolute;
+	bottom: 23.7%;
+	right: 55.9%;
+	width: calc(0.81 * 423/2000 * 100%);
+	height: calc(0.81 * 345/1343 * 100%);
+}
+
+.bread {
+	position: absolute;
+	bottom: 23.7%;
+	right: 39.5%;
+	width: calc(0.81 * 319/2000 * 100%);
+	height: calc(0.81 * 575/1343 * 100%);
+}
+
+.cookbooks {
+	position: absolute;
+	bottom: 59.3%;
+	right: 31.9%;
+	width: calc(0.81 * 740/2000 * 100%);
+	height: calc(0.81 * 371/1343 * 100%);
+}
+
+.sewing {
+	position: absolute;
+	bottom: 49.0%;
+	right: 88.5%;
+	width: calc(0.81 * 101/2000 * 100%);
+	height: calc(0.81 * 241/1343 * 100%);
+}
+
+.stonks {
+	position: absolute;
+	bottom: 23.7%;
+	right: 29.8%;
+	width: calc(0.81 * 305/2000 * 100%);
+	height: calc(0.81 * 576/1343 * 100%);
+}
+
+.tofu {
+	position: absolute;
+	bottom: 24.5%;
+	right: 75.4%;
+	width: calc(0.81 * 367/2000 * 100%);
+	height: calc(0.81 * 339/1343 * 100%);
+}

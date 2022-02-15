@@ -1,0 +1,39 @@
+.dating-sim-container{
+	font-size: 20px;
+	display: grid;
+	grid-template-areas:
+		" dating-sim-name . . . "
+		" dating-sim-box dating-sim-box dating-sim-box dating-sim-box";
+	grid-area: content;
+	width: 40rem;
+}
+
+.dating-sim-title{
+	background-color: white;
+	grid-area: dating-sim-name;
+	padding-left: 1rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.1rem;
+	padding-top: 0.5rem;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+
+.dating-sim-box{
+	font-size: 2rem;
+	background-color: pink;
+	padding-left: 1rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	border: solid white 0.5rem;
+	grid-area: dating-sim-box;
+	justify-content: left;
+	height: 5rem;
+	border-radius: 0px 10px 10px 10px;
+}
+
+.dating-sim-dialogue{
+	font-size: 1.3rem;
+	font-color: white;
+}	

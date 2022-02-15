@@ -6,7 +6,7 @@
 }
 
 .brightness img:hover {
-	-webit-filter:brightness(150%);
+	filter: saturate(5);
     opacity: 0.5;
 }
 

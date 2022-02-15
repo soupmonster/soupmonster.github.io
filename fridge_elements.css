@@ -1,17 +1,13 @@
-.containerdiv { float: center; position: relative; } 
 
-.brightness {
-	background-color: fuchsia;
-    display: inline-block;
-}
-
-.brightness img:hover {
-	filter: saturate(5);
-    opacity: 0.5;
-}
+.fridge-container {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	float: center;
+	position: relative;
+}	
 
 .fridge {
-	width: 100%;
 }
 
 .fridge-handle {
@@ -21,6 +17,7 @@
 	width: 3.9%;
 	height: 23.9%
 }
+
 .freezer-handle {
 	position: absolute;
 	bottom: 24.8%;

@@ -49,7 +49,7 @@ img {
 .content{
 	display: grid;
 	grid-area: content;
-	justify-items: center;
+	justify-items: left;
 }
 
 .footer{
@@ -74,4 +74,14 @@ body {
 		"banner"
 		"content"
 		"footer";
+}
+
+.highlight-on-hover {
+	background-color: fuchsia;
+    display: inline-block;
+}
+
+.highlight-on-hover img:hover {
+	filter: saturate(5);
+    opacity: 0.5;
 }

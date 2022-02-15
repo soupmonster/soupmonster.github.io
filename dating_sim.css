@@ -1,14 +1,24 @@
 .dating-sim-container{
+	position:relative;
 	font-size: 20px;
 	display: grid;
 	grid-template-areas:
-		" dating-sim-name . . . "
-		" dating-sim-box dating-sim-box dating-sim-box dating-sim-box";
+		"coalbee coalbee coalbee coalbee"
+		"dating-sim-name . . . "
+		"dating-sim-box dating-sim-box dating-sim-box dating-sim-box";
 	grid-area: content;
 	width: 40rem;
 }
 
+.dating-sim-image{
+	grid-area: coalbee;
+	background: url("Images/home-page/Coalbee.png");
+	background-size: cover;
+	height: 30rem
+}
 .dating-sim-title{
+	position:absolute;
+	bottom: 0.0rem;
 	background-color: white;
 	grid-area: dating-sim-name;
 	padding-left: 1rem;
@@ -20,6 +30,8 @@
 }
 
 .dating-sim-box{
+	position:absolute;
+	bottom:-11rem;
 	font-size: 2rem;
 	background-color: pink;
 	padding-left: 1rem;
@@ -29,11 +41,16 @@
 	border: solid white 0.5rem;
 	grid-area: dating-sim-box;
 	justify-content: left;
-	height: 5rem;
+	height: 6rem;
 	border-radius: 0px 10px 10px 10px;
+	width: 36.5rem
 }
 
 .dating-sim-dialogue{
 	font-size: 1.3rem;
 	font-color: white;
 }	
+
+.dating-sim-dialogue a{
+	text-decoration: none;
+}

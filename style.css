@@ -68,7 +68,6 @@ img {
 
 body {
 	background-color: #fae49d;
-	display: grid;
 	grid-template-areas:
 		"header"
 		"banner"

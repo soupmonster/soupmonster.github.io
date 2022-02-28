@@ -34,11 +34,60 @@ html {
 }
 
 .header{
+	display: flex;
 	grid-area: header;
 	font-family: Cinzel, Georgia, Serif;
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+.header_text{
+	flex: 3;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	background-color:#fcd760;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-items: center
+}
+
+.center{
+	justify-items: center;
+}
+
+.column_ohdarn {
+	float: left;
+	width: 33.33%;
+	font-size: 1.5rem;
+	font-family: "Josefin Sans", Sans-serif;
+	text-align: center;
+	line-height: 2rem;
+	margin-bottom:10px;
+}
+
+/* Clear floats after the columns */
+.row_ohdarn:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column_ohdarn {
+		width: 100%;
+	}
+	.column {
+		width: 100%
+	}
+}
+
+.searchbar{
+	flex: 1;
 }
 
 img {
@@ -77,6 +126,30 @@ img {
 	padding-top:10px;
 	padding-bottom:10px;
 	grid-area: banner;
+}
+
+
+.collapsible {
+	background-color: rgb(90, 35, 241);
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1rem;
+  }
+
+.active, .collapsible:hover {
+	background-color: rgb(100, 45, 251);
+}
+
+.collapsible_content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #fae49d;
 }
 
 body {

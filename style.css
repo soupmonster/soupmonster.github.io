@@ -46,7 +46,7 @@ html {
 	flex: 3;
 }
 
-.column {
+.column_50 {
 	float: left;
 	width: 50%;
 	background-color:#fcd760;

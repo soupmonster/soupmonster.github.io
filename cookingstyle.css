@@ -6,7 +6,7 @@ div.ww {
 div.wb {
 	word-wrap: break-word;
 }
-	
+
 .content-box-1 {
 	position: absolute;
     background: #FFF;
@@ -30,7 +30,7 @@ div.wb {
 }
 
 .img-main {
-	margin-right:10px; 
+	margin-right:10px;
 	border-radius: 15px;
 }
 

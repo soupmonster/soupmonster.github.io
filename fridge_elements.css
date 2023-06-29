@@ -5,9 +5,6 @@
 	margin-right:auto;
 	float: center;
 	position: relative;
-}	
-
-.fridge {
 }
 
 .fridge-handle {
@@ -101,7 +98,7 @@
 .oil-bottle{
 	position: absolute;
 	width: calc(113/55 * 3.7%);
-	height: calc(347/471 * 23.9%%);
+	height: calc(347/471 * 23.9%);
 	right: 39.1%;
 	bottom: 58.6%;
 }
@@ -109,7 +106,7 @@
 .totoro{
 	position: absolute;
 	width: calc(67/55 * 3.7%);
-	height: calc(60/471 * 23.9%%);
+	height: calc(60/471 * 23.9%);
 	right: 37.1%;
 	bottom: 54.8%;
 }
@@ -117,7 +114,7 @@
 .cockroach{
 	position: absolute;
 	width: calc(43/55 * 3.7%);
-	height: calc(45/471 * 23.9%%);
+	height: calc(45/471 * 23.9%);
 	right: 39.6%;
 	bottom: 49.8%;
 }
@@ -125,7 +122,7 @@
 .coffee-cup{
 	position: absolute;
 	width: calc(61/55 * 3.7%);
-	height: calc(86/471 * 23.9%%);
+	height: calc(86/471 * 23.9%);
 	right: 46.6%;
 	bottom: 46.8%;
 }
@@ -133,7 +130,7 @@
 .witch{
 	position: absolute;
 	width: calc(80/55 * 3.7%);
-	height: calc(108/471 * 23.9%%);
+	height: calc(108/471 * 23.9%);
 	right: 54.8%;
 	bottom: 51.7%;
 }
@@ -141,7 +138,7 @@
 .catbus{
 	position: absolute;
 	width: calc(112/55 * 3.7%);
-	height: calc(78/471 * 23.9%%);
+	height: calc(78/471 * 23.9%);
 	right: 73.4%;
 	bottom: 52.5%;
 }
@@ -149,7 +146,7 @@
 .donkey{
 	position: absolute;
 	width: calc(89/55 * 3.7%);
-	height: calc(111/471 * 23.9%%);
+	height: calc(111/471 * 23.9%);
 	right: 65.3%;
 	bottom: 45.4%;
 }
@@ -157,7 +154,7 @@
 .calendar{
 	position: absolute;
 	width: calc(145/55 * 3.7%);
-	height: calc(100/471 * 23.9%%);
+	height: calc(100/471 * 23.9%);
 	right: 82.4%;
 	bottom: 51.1%;
 }
@@ -165,7 +162,7 @@
 .lobster{
 	position: absolute;
 	width: calc(98/55 * 3.7%);
-	height: calc(204/471 * 23.9%%);
+	height: calc(204/471 * 23.9%);
 	right: 87.5%;
 	bottom: 38.7%;
 }
@@ -173,7 +170,7 @@
 .mushroom{
 	position: absolute;
 	width: calc(91/55 * 3.7%);
-	height: calc(92/471 * 23.9%%);
+	height: calc(92/471 * 23.9%);
 	right: 88.4%;
 	bottom: 31.5%;
 }
@@ -181,7 +178,7 @@
 .tupperware{
 	position: absolute;
 	width: calc(83/55 * 3.7%);
-	height: calc(133/471 * 23.9%%);
+	height: calc(133/471 * 23.9%);
 	right: 64.2%;
 	bottom: 31.9%;
 }
@@ -189,11 +186,17 @@
 .pumpkin{
 	position: absolute;
 	width: calc(67/55 * 3.7%);
-	height: calc(54/471 * 23.9%%);
+	height: calc(54/471 * 23.9%);
 	right: 55.0%;
 	bottom: 41.4%;
 }
 
-
-
+.wedding{
+	position: absolute;
+	width: calc(290/55 * 3.7%);
+	height: calc(375/471 * 23.9%);
+	right: 51.5%;
+	bottom: 5.8%;
+	transform: rotate(-25deg)
+}
 
